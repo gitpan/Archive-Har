@@ -11,11 +11,11 @@ Archive::Har::Entry::Timings - Represents the timings for the individual phases 
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -53,7 +53,7 @@ my (%_fields) = (
 
 =head2 blocked
 
-returns the time in milliseconds spent waiting for a network connection.  -1 means this does not apply to the current request
+returns the time in milliseconds spent waiting for a network connection.  Ihe function will return undef if it does not apply to the current request
 
 =cut
 
@@ -75,7 +75,7 @@ sub blocked {
 
 =head2 dns
 
-returns the time in milliseconds spent in DNS resolution of the host name.  -1 means this does not apply to the current request
+returns the time in milliseconds spent in DNS resolution of the host name.  Ihe function will return undef if it does not apply to the current request
 
 =cut
 
@@ -97,7 +97,7 @@ sub dns {
 
 =head2 connect
 
-returns the time in milliseconds spent making the TCP connection.  -1 means this does not apply to the current request
+returns the time in milliseconds spent making the TCP connection.  Ihe function will return undef if it does not apply to the current request
 
 =cut
 
@@ -131,7 +131,7 @@ returns the time in milliseconds spent reading the response from the server.
 
 =head2 ssl
 
-returns the time in milliseconds spent negotiating the SSL/TLS session.  This time is included in the connect field.  -1 means this does not apply to the current request
+returns the time in milliseconds spent negotiating the SSL/TLS session.  Ihe function will return undef if it does not apply to the current request
 
 =cut
 

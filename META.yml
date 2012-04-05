@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Archive-Har
-version:            0.02
+version:            0.03
 abstract:           Provides an interface to HTTP Archive (HAR) files
 author:
     - David Dick <ddick@cpan.org>

@@ -14,11 +14,11 @@ Archive::Har::Entry - Represents a single http request/response pair inside the 
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -67,7 +67,7 @@ returns the date and time stamp for the beginning of the request (ISO 8601 forma
 
 =head2 time
 
-returns the total elapsed time of the request in milliseconds.  It is the sum of all the timings available in the timings object (not including -1 values).
+returns the total elapsed time of the request in milliseconds.  It is the sum of all the timings available in the timings object (not including undefined values).
 
 =cut
 

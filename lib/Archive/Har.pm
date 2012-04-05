@@ -17,11 +17,11 @@ Archive::Har - Provides an interface to HTTP Archive (HAR) files
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -204,6 +204,10 @@ sub TO_JSON {
 	$json->{comment} = $self->comment();
 	return $json;
 }
+
+=head1 SEE ALSO
+
+The HTTP Archive Spec <http://www.softwareishard.com/blog/har-12-spec/>
 
 =head1 AUTHOR
 
