@@ -7,15 +7,15 @@ use Archive::Har::Page::PageTimings();
 
 =head1 NAME
 
-Archive::Har::Page - Represents a single page inside the the HTTP Archive
+Archive::Har::Page - Represents a single page inside the HTTP Archive
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -28,7 +28,7 @@ our $VERSION = '0.01';
         print "DateTime: " . $page->startedDateTime() . "\n";
         print "Id: " . $page->id() . "\n";
         print "Title: ". $page->title() . "\n";
-        my $timing = $page->timing();
+        my $timing = $page->pageTimings();
         print "Comment: " . $page->comment() . "\n";
     }
 

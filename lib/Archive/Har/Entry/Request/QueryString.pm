@@ -6,15 +6,15 @@ use Carp();
 
 =head1 NAME
 
-Archive::Har::Entry::Request::QueryString - Represents a single name/value pair from the query string for a request inside the the HTTP Archive
+Archive::Har::Entry::Request::QueryString - Represents a single name/value pair from the query string for a request inside the HTTP Archive
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 

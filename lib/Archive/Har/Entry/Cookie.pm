@@ -7,15 +7,15 @@ use Archive::Har::Entry::Cookie();
 
 =head1 NAME
 
-Archive::Har::Entry::Cookie - Represents a single http cookie object for a request or response inside the the HTTP Archive
+Archive::Har::Entry::Cookie - Represents a single http cookie object for a request or response inside the HTTP Archive
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 

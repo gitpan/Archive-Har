@@ -6,15 +6,15 @@ use Carp();
 
 =head1 NAME
 
-Archive::Har::Entry::Response::Content - Represents the content for a response inside the the HTTP Archive
+Archive::Har::Entry::Response::Content - Represents the content for a response inside the HTTP Archive
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
