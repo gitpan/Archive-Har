@@ -1,11 +1,17 @@
 Revision history for Archive-Har
 
-0.3   Fri Apr 06 08:41:00 2012
-       More documentation fixes
+0.05   Sun Apr 21 21:31:00 2013
+        Included changelog for 0.04
 
-0.2   Thu Apr 05 21:01:00 2012
-       Documentation fixes, removal of pod-coverage test
+0.04   Thu Apr 11 17:42:00 2013
+        Documentation fix pointed out by Mark Stacey
 
-0.1   Wed Mar 28 10:00:00 2012
-       Initial release.
+0.03   Fri Apr 06 08:41:00 2012
+        More documentation fixes
+
+0.02   Thu Apr 05 21:01:00 2012
+        Documentation fixes, removal of pod-coverage test
+
+0.01   Wed Mar 28 10:00:00 2012
+        Initial release.
 
